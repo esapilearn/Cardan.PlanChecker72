@@ -45,7 +45,7 @@ namespace ESAPX_StarterUI.ViewModels
                 new PlanConstraintRow(ConstraintBuilder.Build("Rectum", "V75Gy[%] <= 15")),
                 new PlanConstraintRow(ConstraintBuilder.Build("Rectum", "V65Gy[%] <= 35")),
                 new PlanConstraintRow(ConstraintBuilder.Build("Bladder", "V80Gy[%] <= 15")),
-             //   new PlanConstraint(new CTDateConstraint())
+                new PlanConstraintRow(new CTDateConstraint())
             });
         }
 
